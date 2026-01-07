@@ -1,0 +1,15 @@
+{
+  "name": "linear-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Linear API - enables AI-powered issue management",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@linear/sdk": "^29.0.0",
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
